@@ -1,0 +1,21 @@
+{
+    "name": "extrembler/openorder",
+    "description": "Implements Order tab functionality on Customer account Magento 2 store",
+    "type": "magento2-module",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0",
+        "magento/magento-composer-installer": "*",
+        "magento/framework": "100.1.*"
+    },
+    "version": "100.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Extrembler\\OpenOrder\\": ""
+        }
+    }
+}
